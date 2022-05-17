@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://username.github.io/app-toot-name",
+  "homepage": "https://andynosaurus.github.io/app-toot-name",
   "eslintConfig": {
     "extends": [
       "react-app",
