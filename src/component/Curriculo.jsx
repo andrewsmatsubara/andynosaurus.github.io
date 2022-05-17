@@ -12,15 +12,60 @@ export default function Resume() {
   return <div className='abilities'>
     <h1>Habilidades</h1>
     <div className='logo-container'>
-      <img src={html} alt="html" className='logo' />
-      <img src={css} alt="css" className='logo' />
-      <img src={javascript} alt="javascript" className='logo' />
-      <img src={reactLogo} alt="react" className='logo' />
-      <img src={github} alt="github" className='logo' />
-      <img src={docker} alt="docker" className='logo' />
-      <img src={mysql} alt="mysql" className='logo' />
-      <img src={nodejs} alt="nodejs" className='logo' />
-      <img src={typescript} alt="typescript" className='logo' />
+      <div className='logo-skill'>
+        <img src={html} alt="html" className='logo' />
+        <div className='skill-bar'>
+          <div className='skill-per'></div>
+        </div>
+      </div>
+      <div className='logo-skill'>
+        <img src={css} alt="css" className='logo' />
+        <div className='skill-bar'>
+          <div className='skill-per'></div>
+        </div>
+      </div>
+      <div className='logo-skill'>
+        <img src={javascript} alt="javascript" className='logo' />
+        <div className='skill-bar'>
+          <div className='skill-per'></div>
+        </div>
+      </div>
+      <div className='logo-skill'>
+        <img src={reactLogo} alt="react" className='logo' />
+        <div className='skill-bar'>
+          <div className='skill-per'></div>
+        </div>
+      </div>
+      <div className='logo-skill'>
+        <img src={github} alt="github" className='logo' />
+        <div className='skill-bar'>
+          <div className='skill-per'></div>
+        </div>
+      </div>
+      <div className='logo-skill'>
+        <img src={docker} alt="docker" className='logo' />
+        <div className='skill-bar'>
+          <div className='skill-per'></div>
+        </div>
+      </div>
+      <div className='logo-skill'>
+        <img src={mysql} alt="mysql" className='logo' />
+        <div className='skill-bar'>
+          <div className='skill-per'></div>
+        </div>
+      </div>
+      <div className='logo-skill'>
+        <img src={nodejs} alt="nodejs" className='logo' />
+        <div className='skill-bar'>
+          <div className='skill-per'></div>
+        </div>
+      </div>
+      <div className='logo-skill'>
+        <img src={typescript} alt="typescript" className='logo' />
+        <div className='skill-bar'>
+          <div className='skill-per'></div>
+        </div>
+      </div>
     </div>
   </div>
 }
