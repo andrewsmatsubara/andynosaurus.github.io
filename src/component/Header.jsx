@@ -6,7 +6,7 @@ export default function Header() {
     <ul className='navigation'>
         <li>Início</li>
         <li>Sobre</li>
-        <li>Currículo</li>
+        <li>Habilidades</li>
         <li>Contato</li>
       </ul>
   </header>
