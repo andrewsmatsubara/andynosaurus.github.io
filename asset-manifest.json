@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/app-toot-name/static/css/main.78a19521.chunk.css",
+    "main.js": "/app-toot-name/static/js/main.cbc4aabd.chunk.js",
+    "main.js.map": "/app-toot-name/static/js/main.cbc4aabd.chunk.js.map",
+    "runtime-main.js": "/app-toot-name/static/js/runtime-main.dff1ff83.js",
+    "runtime-main.js.map": "/app-toot-name/static/js/runtime-main.dff1ff83.js.map",
+    "static/js/2.6a556c66.chunk.js": "/app-toot-name/static/js/2.6a556c66.chunk.js",
+    "static/js/2.6a556c66.chunk.js.map": "/app-toot-name/static/js/2.6a556c66.chunk.js.map",
+    "static/js/3.b601506f.chunk.js": "/app-toot-name/static/js/3.b601506f.chunk.js",
+    "static/js/3.b601506f.chunk.js.map": "/app-toot-name/static/js/3.b601506f.chunk.js.map",
+    "index.html": "/app-toot-name/index.html",
+    "static/css/main.78a19521.chunk.css.map": "/app-toot-name/static/css/main.78a19521.chunk.css.map",
+    "static/js/2.6a556c66.chunk.js.LICENSE.txt": "/app-toot-name/static/js/2.6a556c66.chunk.js.LICENSE.txt",
+    "static/media/foto-perfil.5760deaa.jpg": "/app-toot-name/static/media/foto-perfil.5760deaa.jpg",
+    "static/media/headerbackground.29df4822.jpg": "/app-toot-name/static/media/headerbackground.29df4822.jpg",
+    "static/media/home-background.bb676788.jpg": "/app-toot-name/static/media/home-background.bb676788.jpg",
+    "static/media/outra-foto-perfil.871912b1.jpg": "/app-toot-name/static/media/outra-foto-perfil.871912b1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dff1ff83.js",
+    "static/js/2.6a556c66.chunk.js",
+    "static/css/main.78a19521.chunk.css",
+    "static/js/main.cbc4aabd.chunk.js"
+  ]
+}
