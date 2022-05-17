@@ -9,12 +9,13 @@ import Credits from './component/Credits';
 function App() {
   return (
     <div className='body'>
-      <Header/>
-    <img src={background} alt="background" className='bg'/>
-      <Home/>
-      <Resume/>
-      <Credits/>
-      <Footer/>
+      <Header />
+      <img src={background} alt="background" className='bg' />
+      <Home />
+      <hr className='hr' />
+      <Resume />
+      <Credits />
+      <Footer />
     </div>
   );
 }
