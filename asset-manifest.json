@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/app-toot-name/static/css/main.78a19521.chunk.css",
-    "main.js": "/app-toot-name/static/js/main.a77ec114.chunk.js",
-    "main.js.map": "/app-toot-name/static/js/main.a77ec114.chunk.js.map",
-    "runtime-main.js": "/app-toot-name/static/js/runtime-main.06a463ad.js",
-    "runtime-main.js.map": "/app-toot-name/static/js/runtime-main.06a463ad.js.map",
-    "static/js/2.52cfb1e5.chunk.js": "/app-toot-name/static/js/2.52cfb1e5.chunk.js",
-    "static/js/2.52cfb1e5.chunk.js.map": "/app-toot-name/static/js/2.52cfb1e5.chunk.js.map",
-    "static/js/3.bc904c2b.chunk.js": "/app-toot-name/static/js/3.bc904c2b.chunk.js",
-    "static/js/3.bc904c2b.chunk.js.map": "/app-toot-name/static/js/3.bc904c2b.chunk.js.map",
+    "main.css": "/app-toot-name/static/css/main.868a55bb.chunk.css",
+    "main.js": "/app-toot-name/static/js/main.d1ad07dc.chunk.js",
+    "main.js.map": "/app-toot-name/static/js/main.d1ad07dc.chunk.js.map",
+    "runtime-main.js": "/app-toot-name/static/js/runtime-main.dff1ff83.js",
+    "runtime-main.js.map": "/app-toot-name/static/js/runtime-main.dff1ff83.js.map",
+    "static/js/2.6a556c66.chunk.js": "/app-toot-name/static/js/2.6a556c66.chunk.js",
+    "static/js/2.6a556c66.chunk.js.map": "/app-toot-name/static/js/2.6a556c66.chunk.js.map",
+    "static/js/3.b601506f.chunk.js": "/app-toot-name/static/js/3.b601506f.chunk.js",
+    "static/js/3.b601506f.chunk.js.map": "/app-toot-name/static/js/3.b601506f.chunk.js.map",
     "index.html": "/app-toot-name/index.html",
-    "static/css/main.78a19521.chunk.css.map": "/app-toot-name/static/css/main.78a19521.chunk.css.map",
-    "static/js/2.52cfb1e5.chunk.js.LICENSE.txt": "/app-toot-name/static/js/2.52cfb1e5.chunk.js.LICENSE.txt",
+    "static/css/main.868a55bb.chunk.css.map": "/app-toot-name/static/css/main.868a55bb.chunk.css.map",
+    "static/js/2.6a556c66.chunk.js.LICENSE.txt": "/app-toot-name/static/js/2.6a556c66.chunk.js.LICENSE.txt",
+    "static/media/css-3.4a6549b8.png": "/app-toot-name/static/media/css-3.4a6549b8.png",
+    "static/media/docker.e0ba9d23.png": "/app-toot-name/static/media/docker.e0ba9d23.png",
     "static/media/foto-perfil.5760deaa.jpg": "/app-toot-name/static/media/foto-perfil.5760deaa.jpg",
+    "static/media/github.22cfdd1c.png": "/app-toot-name/static/media/github.22cfdd1c.png",
     "static/media/headerbackground.29df4822.jpg": "/app-toot-name/static/media/headerbackground.29df4822.jpg",
-    "static/media/home-background.bb676788.jpg": "/app-toot-name/static/media/home-background.bb676788.jpg",
-    "static/media/outra-foto-perfil.871912b1.jpg": "/app-toot-name/static/media/outra-foto-perfil.871912b1.jpg"
+    "static/media/home-background.5e00ce00.jpg": "/app-toot-name/static/media/home-background.5e00ce00.jpg",
+    "static/media/html5.cfb2ba4a.png": "/app-toot-name/static/media/html5.cfb2ba4a.png",
+    "static/media/js.3dfb665e.png": "/app-toot-name/static/media/js.3dfb665e.png",
+    "static/media/mysql.4610cbab.png": "/app-toot-name/static/media/mysql.4610cbab.png",
+    "static/media/nodejs.007e99f6.png": "/app-toot-name/static/media/nodejs.007e99f6.png",
+    "static/media/outra-foto-perfil.871912b1.jpg": "/app-toot-name/static/media/outra-foto-perfil.871912b1.jpg",
+    "static/media/reactjs.8de03115.png": "/app-toot-name/static/media/reactjs.8de03115.png",
+    "static/media/typescript.af108db0.png": "/app-toot-name/static/media/typescript.af108db0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.06a463ad.js",
-    "static/js/2.52cfb1e5.chunk.js",
-    "static/css/main.78a19521.chunk.css",
-    "static/js/main.a77ec114.chunk.js"
+    "static/js/runtime-main.dff1ff83.js",
+    "static/js/2.6a556c66.chunk.js",
+    "static/css/main.868a55bb.chunk.css",
+    "static/js/main.d1ad07dc.chunk.js"
   ]
 }
