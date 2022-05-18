@@ -25,7 +25,7 @@ export default function abilities() {
 
   for (let i = 0; i < abilitiesArray.length; i += 1) {
     let imageAndBar = <div className='logo-skill'>
-      <img src={abilitiesArray[i]} alt={`${abilitiesArray[i]}`} className='logo' />
+      <img src={abilitiesArray[i]} alt={`${abilitiesArray[i]}`} className={`${ abilitiesArray[i]}`} width={'150px'} />
       <div className='skill-bar'>
         <div className='skill-per'></div>
       </div>

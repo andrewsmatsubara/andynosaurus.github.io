@@ -1,5 +1,5 @@
 export default function Credits() {
-  return <div>
+  return <div className="credits">
     <h1>Créditos</h1>
     <a href="https://www.flaticon.com/br/icones-gratis/html-5" title="html 5 ícones">Html 5 ícones criados por Freepik - Flaticon</a>
     <a href="https://www.flaticon.com/br/icones-gratis/css-3" title="css 3 ícones">Css 3 ícones criados por Freepik - Flaticon</a>
