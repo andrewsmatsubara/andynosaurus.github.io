@@ -1,9 +1,14 @@
 import '../src/css/App.css';
+import '../src/css/Header.css';
+import '../src/css/Home.css';
+import '../src/css/Abilities.css';
+import '../src/css/Footer.css';
+
 import Footer from './component/Footer';
 import Header from './component/Header';
 import Home from './component/Home';
 import background from '../src/images/home-background.jpg'
-import Resume from './component/Curriculo';
+import Abilities from './component/Abilities';
 import Credits from './component/Credits';
 
 function App() {
@@ -13,7 +18,7 @@ function App() {
       <img src={background} alt="background" className='bg' />
       <Home />
       <hr className='hr' />
-      <Resume />
+      <Abilities />
       <Credits />
       <Footer />
     </div>
