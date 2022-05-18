@@ -1,6 +1,6 @@
 import abilities from "../util/util";
 
-export default function Resume() {
+export default function Abilities() {
   return <div className='abilities'>
     <h1>Habilidades</h1>
     <div className='logo-container'>
