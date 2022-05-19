@@ -8,17 +8,103 @@
 }
 
 .abilities h1 {
-  margin-top: 25px;
+  margin: 25px 0px 50px 0px;
 }
 
 .logo-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  /* border: 1px red solid; */
+  width: 60%;
+}
+
+.logo-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
+}
+
+.skill-bar {
   display: flex;
-  margin: 100px 75px;
+  width: 200px;
+  height: 15px;
+  margin: 50px;
+  background-color: white;
+  border-radius: 1000px;
+}
+
+.html-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 90%;
+}
+
+.css-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.javascript-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.reactLogo-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.github-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.docker-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.mysql-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.nodejs-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.typescript-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.per-number {
+  display: flex;
+  height: 15px;
+  width: 90%;
+  justify-content: flex-end;
+  align-items: center;
 }

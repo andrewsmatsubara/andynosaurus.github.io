@@ -2,6 +2,7 @@ import '../src/css/App.css';
 import '../src/css/Header.css';
 import '../src/css/Home.css';
 import '../src/css/Abilities.css';
+import '../src/css/Credits.css';
 import '../src/css/Footer.css';
 
 import Footer from './component/Footer';
