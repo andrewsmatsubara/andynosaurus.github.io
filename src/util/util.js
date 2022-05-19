@@ -21,17 +21,32 @@ export default function abilities() {
     typescript
   ];
 
+  const abilitiesStringArray = [
+    'html',
+    'css',
+    'javascript',
+    'reactLogo',
+    'github',
+    'docker',
+    'mysql',
+    'nodejs',
+    'typescript'
+  ];
+
   const newArray = [];
 
   for (let i = 0; i < abilitiesArray.length; i += 1) {
     let imageAndBar = <div className='logo-skill'>
-      <img src={abilitiesArray[i]} alt={`${abilitiesArray[i]}`} className={`${ abilitiesArray[i]}`} width={'150px'} />
+      <img src={abilitiesArray[i]} alt={`${abilitiesStringArray[i]}`} className='logo' />
       <div className='skill-bar'>
-        <div className='skill-per'></div>
+        <div className={`${abilitiesStringArray[i]}-skill-per`} >
+          <div className='per-number'>100%</div>
+        </div>
       </div>
     </div>
 
     newArray.push(imageAndBar);
   }
+
   return newArray;
 }

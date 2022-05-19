@@ -25,21 +25,86 @@
   align-items: center;
 }
 
+.logo {
+  width: 150px;
+}
+
 .skill-bar {
   display: flex;
-  width: 250px;
+  width: 200px;
   height: 15px;
   margin: 50px;
-  background-color: gray;
+  background-color: white;
   border-radius: 1000px;
 }
 
-.skill-per {
-  display: flex;
-  background-color: aliceblue;
+.html-skill-per {
+  background-color: lightcoral;
   border-radius: 1000px;
-  position: absolute;
   height: 15px;
-  /* border: 1px solid red; */
+  width: 90%;
+}
+
+.css-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
   width: 100px;
+}
+
+.javascript-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.reactLogo-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.github-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.docker-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.mysql-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.nodejs-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.typescript-skill-per {
+  background-color: lightcoral;
+  border-radius: 1000px;
+  height: 15px;
+  width: 100px;
+}
+
+.per-number {
+  display: flex;
+  height: 15px;
+  width: 90%;
+  justify-content: flex-end;
+  align-items: center;
 }
