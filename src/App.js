@@ -20,6 +20,7 @@ function App() {
       <Home />
       <hr className='hr' />
       <Abilities />
+      <hr className='hr' />
       <Credits />
       <Footer />
     </div>
