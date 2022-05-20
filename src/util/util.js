@@ -7,6 +7,9 @@ import docker from '../images/docker.png';
 import mysql from '../images/mysql.png';
 import nodejs from '../images/nodejs.png';
 import typescript from '../images/typescript.png';
+import gmail from '../images/gmail.png';
+import linkedin from '../images/linkedin.png';
+import whatsapp from '../images/whatsapp.png';
 
 export default function abilities() {
   const abilitiesArray = [
@@ -36,7 +39,7 @@ export default function abilities() {
   const newArray = [];
 
   for (let i = 0; i < abilitiesArray.length; i += 1) {
-    let imageAndBar = <div className='logo-skill'>
+    const imageAndBar = <div className='logo-skill'>
       <img src={abilitiesArray[i]} alt={`${abilitiesStringArray[i]}`} className='logo' />
       <div className='skill-bar'>
         <div className={`${abilitiesStringArray[i]}-skill-per`} >
@@ -46,6 +49,35 @@ export default function abilities() {
     </div>
 
     newArray.push(imageAndBar);
+  }
+
+  return newArray;
+}
+
+export function contacts() {
+  const contactArray = [
+    gmail,
+    whatsapp,
+    linkedin,
+    github
+  ];
+
+  const contactStringArray = [
+    'Gmail',
+    'Whatsapp',
+    'Linkedin',
+    'Github'
+  ];
+
+  const newArray = [];
+
+  for (let i = 0; i < contactArray.length; i += 1) {
+    const imageAndName = <div className='contact-container'>
+      <img src={contactArray[i]} alt={`${contactStringArray[i]}`} className='logo' />
+      <h2>{contactStringArray[i]}</h2>
+    </div>
+
+    newArray.push(imageAndName);
   }
 
   return newArray;

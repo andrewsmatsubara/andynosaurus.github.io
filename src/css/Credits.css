@@ -2,5 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px;
+  margin: 50px;
+}
+
+.credits h1 {
+  margin-bottom: 25px;
 }

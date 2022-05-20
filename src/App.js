@@ -2,6 +2,7 @@ import '../src/css/App.css';
 import '../src/css/Header.css';
 import '../src/css/Home.css';
 import '../src/css/Abilities.css';
+import '../src/css/Contacts.css';
 import '../src/css/Credits.css';
 import '../src/css/Footer.css';
 
@@ -10,6 +11,7 @@ import Header from './component/Header';
 import Home from './component/Home';
 import background from '../src/images/home-background.jpg'
 import Abilities from './component/Abilities';
+import Contacts from './component/Contacts';
 import Credits from './component/Credits';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <Home />
       <hr className='hr' />
       <Abilities />
+      <hr className='hr' />
+      <Contacts />
       <hr className='hr' />
       <Credits />
       <Footer />
