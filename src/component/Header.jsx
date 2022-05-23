@@ -1,4 +1,4 @@
-import { Scrollchor } from 'react-scrollchor';
+import { HashLink as Link } from 'react-router-hash-link';
 import headerbackground from '../images/headerbackground.jpg'
 
 export default function Header() {
@@ -6,19 +6,17 @@ export default function Header() {
     <img src={headerbackground} alt="headerbackground" />
     <ul className='navigation'>
       <li>
-        <Scrollchor to='#header' className='nav-link'>Início</Scrollchor>
+        <Link to='#header' className='nav-link'>Início</Link>
       </li>
       <li className='nav-link'>
-        <Scrollchor to='#home' className='nav-link'>Sobre</Scrollchor>
+        <Link to='#home' className='nav-link'>Sobre</Link>
       </li>
       <li className='nav-link'>
-        <Scrollchor to='#abilities' className='nav-link'>Habilidades</Scrollchor>
+        <Link to='#abilities' className='nav-link'>Habilidades</Link>
       </li>
       <li className='nav-link'>
-        <Scrollchor to='#contacts' className='nav-link'>Contato</Scrollchor>
+        <Link to='#contacts' className='nav-link'>Contato</Link>
       </li>
     </ul>
   </header>
 }
-
-// https://www.npmjs.com/package/react-scrollchor
