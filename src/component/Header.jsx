@@ -6,17 +6,19 @@ export default function Header() {
     <img src={headerbackground} alt="headerbackground" />
     <ul className='navigation'>
       <li>
-        <Scrollchor to='#header'>Início</Scrollchor>
+        <Scrollchor to='#header' className='nav-link'>Início</Scrollchor>
       </li>
-      <li>
-        <Scrollchor to='#home'>Sobre</Scrollchor>
+      <li className='nav-link'>
+        <Scrollchor to='#home' className='nav-link'>Sobre</Scrollchor>
       </li>
-      <li>
-        <Scrollchor to='#abilities'>Habilidades</Scrollchor>
+      <li className='nav-link'>
+        <Scrollchor to='#abilities' className='nav-link'>Habilidades</Scrollchor>
       </li>
-      <li>
-        <Scrollchor to='#contacts'>Contato</Scrollchor>
+      <li className='nav-link'>
+        <Scrollchor to='#contacts' className='nav-link'>Contato</Scrollchor>
       </li>
     </ul>
   </header>
 }
+
+// https://www.npmjs.com/package/react-scrollchor

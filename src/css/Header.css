@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   background-color: black;
-  height: 1000px;
+  height: 952px;
   width: 100%;
   top: 0;
   color: white;
@@ -23,4 +23,9 @@
   align-items: center;
   background-color: transparent;
   height: 100px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
 }
