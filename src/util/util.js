@@ -42,8 +42,8 @@ export default function abilities() {
     const imageAndBar = <div className='logo-skill'>
       <img src={abilitiesArray[i]} alt={`${abilitiesStringArray[i]}`} className='logo' />
       <div className='skill-bar'>
-        <div className={`${abilitiesStringArray[i]}-skill-per`} >
-          <div className='per-number'>100%</div>
+        <div className={`${abilitiesStringArray[i]}-skill-per`} style={{ backgroundColor: 'lightcoral', borderRadius: '1000px', height: '15px', display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }} >
+          <div className='per-number'></div>
         </div>
       </div>
     </div>
