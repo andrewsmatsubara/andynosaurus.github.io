@@ -2,7 +2,7 @@ import profilePicture from '../images/foto-perfil.jpg'
 import profilePicture2 from '../images/outra-foto-perfil.jpg'
 
 export default function Home() {
-  return <div className="home">
+  return <div className="home" id='home'>
     <div className='profile-content'>
       <div className='img-container'>
         <img src={profilePicture} alt="Andrews Matsubara" />
