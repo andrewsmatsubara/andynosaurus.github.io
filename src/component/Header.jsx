@@ -1,22 +1,25 @@
-import { Scrollchor } from 'react-scrollchor';
+import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import headerbackground from '../images/headerbackground.jpg'
 
-export default function Header() {
-  return <header className='header'>
-    <img src={headerbackground} alt="headerbackground" />
-    <ul className='navigation'>
-      <li>
-        <Scrollchor to='#header'>Início</Scrollchor>
-      </li>
-      <li>
-        <Scrollchor to='#home'>Sobre</Scrollchor>
-      </li>
-      <li>
-        <Scrollchor to='#abilities'>Habilidades</Scrollchor>
-      </li>
-      <li>
-        <Scrollchor to='#contacts'>Contato</Scrollchor>
-      </li>
-    </ul>
-  </header>
+export default class Header extends React.Component {
+  render() {
+    return <header className='header'>
+      <img src={headerbackground} alt="headerbackground" />
+      <ul className='navigation'>
+        <li>
+          <Link to='#header' className='nav-link'>Início</Link>
+        </li>
+        <li className='nav-link'>
+          <Link to='#home' className='nav-link'>Sobre</Link>
+        </li>
+        <li className='nav-link'>
+          <Link to='#abilities' className='nav-link'>Habilidades</Link>
+        </li>
+        <li className='nav-link'>
+          <Link to='#contacts' className='nav-link'>Contato</Link>
+        </li>
+      </ul>
+    </header>
+  }
 }

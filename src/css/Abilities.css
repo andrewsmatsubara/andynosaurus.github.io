@@ -36,75 +36,50 @@
   margin: 50px;
   background-color: white;
   border-radius: 1000px;
+  /* border: 1px solid red; */
 }
 
 .html-skill-per {
-  background-color: lightcoral;
-  border-radius: 1000px;
-  height: 15px;
-  width: 90%;
+  width: 80%;
 }
 
 .css-skill-per {
-  background-color: lightcoral;
-  border-radius: 1000px;
-  height: 15px;
-  width: 100px;
+  width: 60%;
 }
 
 .javascript-skill-per {
-  background-color: lightcoral;
-  border-radius: 1000px;
-  height: 15px;
-  width: 100px;
+  width: 70%;
 }
 
 .reactLogo-skill-per {
-  background-color: lightcoral;
-  border-radius: 1000px;
-  height: 15px;
-  width: 100px;
+  width: 70%;
 }
 
 .github-skill-per {
-  background-color: lightcoral;
-  border-radius: 1000px;
-  height: 15px;
-  width: 100px;
+  width: 60%;
 }
 
 .docker-skill-per {
-  background-color: lightcoral;
-  border-radius: 1000px;
-  height: 15px;
-  width: 100px;
+  width: 20%;
 }
 
 .mysql-skill-per {
-  background-color: lightcoral;
-  border-radius: 1000px;
-  height: 15px;
-  width: 100px;
+  width: 50%;
 }
 
 .nodejs-skill-per {
-  background-color: lightcoral;
-  border-radius: 1000px;
-  height: 15px;
-  width: 100px;
+  width: 40%;
 }
 
 .typescript-skill-per {
-  background-color: lightcoral;
-  border-radius: 1000px;
-  height: 15px;
-  width: 100px;
+  width: 20%;
 }
 
 .per-number {
   display: flex;
-  height: 15px;
-  width: 90%;
-  justify-content: flex-end;
-  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: aliceblue;
+  border-radius: 100%;
+  box-shadow: 2px 2px gray;
 }
